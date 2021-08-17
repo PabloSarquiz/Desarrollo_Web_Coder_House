@@ -1,0 +1,30 @@
+
+.productos {
+    background-color: skyblue;
+}
+.fila__tortas--posicion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   } 
+  
+  .fila__cupcakes--posicion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .fila__macarons--posicion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: salmon;
+  } :hover {
+    color: black;
+}

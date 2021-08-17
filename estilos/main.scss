@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+
+
+@import "./partials/variables";
+@import "./partials/efectos";
+@import "./partials/gradientes";
+@import "./partials/productos";
+@import "./partials/error";
+
+
+.contenido {
+    padding-top: 150px
+}
+
+.carousel-item > img {
+    object-fit: cover;
+    height: calc(100vh - 10px);
+    width: 100%;
+}
+
+
+
+.hero {
+    background-image: $hero-index;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    
+
+    
+
+    &__productos {
+        background-image: $hero-productos;
+        .mensaje {
+            color: white;
+        }
+    }
+    
+
+    &__combos {
+        background-image: $hero-combos;
+        .mensaje {
+            color: white;
+        }
+        
+    &__nosotros {
+        background-image: $hero-nosotros;
+        .mensaje {
+            background-color: tomato;
+        }
+    }
+    &__contacto {
+        background-image: $hero-contacto;
+        .mensaje {
+            background-color: darkviolet;
+        }
+    }
+}
+}
+
+
+.servicios {
+    height: 100vh;
+}
+// .nosotros {
+//     height: 100vh;
+//     background-color: #f580c6;
+ 
+//     &__img {
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//     }
+//     &__about {
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         p {
+//             font-size: $fuente-grande;
+//             color: $color-texto;
+//         }
+//     }
+// }
+
+.nosotros-fondo {
+    height: 100vh;
+    background-color: #a2d9ff;
+    
+}
+
+.txt-centrado {
+    display: block;
+    margin: auto;
+
+}
+
+
+.social {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body {
+    h5 {
+        font-size: $fuente-grande;
+        color: $color-secundario
+    }
+    p { font-size: $fuente-normal;
+        color: $color-texto;    
+    }
+    a {
+        display: flex;
+        color: black;
+        justify-content: flex-end;
+        padding: 0 15px;
+        margin: 0 10px;
+        text-decoration: none;
+      }
+
+}
+
+
+hr {
+    opacity: 1;
+    height: 10px !important;
+    width: 100%;  
+    background: #74ebd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+
+.footer {
+    background-color: lightblue;
+}

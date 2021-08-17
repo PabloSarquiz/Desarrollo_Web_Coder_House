@@ -1,0 +1,249 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.zoom {
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+}
+
+.zoom:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.productos {
+  background-color: skyblue;
+}
+
+.fila__tortas--posicion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fila__cupcakes--posicion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fila__macarons--posicion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: salmon;
+}
+
+:hover {
+  color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat" sans-serif;
+  min-height: 100vh;
+  background-image: #acb6e5;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#86fde8), to(#acb6e5));
+  background: linear-gradient(to right, #86fde8, #acb6e5);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container-error {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-align: center;
+  color: #343434;
+}
+
+.container-error h1 {
+  font-size: 160px;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: 20px;
+  background: url(/assets/productos-mac.jpg);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.container-error a {
+  text-decoration: none;
+  background: black;
+  color: #fff;
+  padding: 50px, 24px;
+  margin-top: 50px;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.container-error a:hover {
+  background: darkgoldenrod;
+}
+
+.contenido {
+  padding-top: 150px;
+}
+
+.carousel-item > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: calc(100vh - 10px);
+  width: 100%;
+}
+
+.hero {
+  background-image: url(../assets/fondoDulces.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.hero__productos {
+  background-image: url(../assets/hero-productos.jpg);
+}
+
+.hero__productos .mensaje {
+  color: white;
+}
+
+.hero__combos {
+  background-image: url(../assets/combos.jpg);
+}
+
+.hero__combos .mensaje {
+  color: white;
+}
+
+.hero__combos__nosotros {
+  background-image: url(../assets/heroNosotros.jpg);
+}
+
+.hero__combos__nosotros .mensaje {
+  background-color: tomato;
+}
+
+.hero__combos__contacto {
+  background-image: url(../assets/car5.jpg);
+}
+
+.hero__combos__contacto .mensaje {
+  background-color: darkviolet;
+}
+
+.servicios {
+  height: 100vh;
+}
+
+.nosotros-fondo {
+  height: 100vh;
+  background-color: #a2d9ff;
+}
+
+.txt-centrado {
+  display: block;
+  margin: auto;
+}
+
+.social {
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card-body h5 {
+  font-size: 1.8em;
+  color: salmon;
+}
+
+.card-body p {
+  font-size: 1em;
+  color: black;
+}
+
+.card-body a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0 15px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+hr {
+  opacity: 1;
+  height: 10px !important;
+  width: 100%;
+  background: #74ebd5;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#ACB6E5), to(#74ebd5));
+  background: linear-gradient(to right, #ACB6E5, #74ebd5);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.footer {
+  background-color: lightblue;
+}

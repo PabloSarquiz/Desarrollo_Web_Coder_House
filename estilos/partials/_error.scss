@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat" sans-serif;
+    min-height: 100vh;
+    background-image: #acb6e5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ; 
+}
+
+.container-error {
+    width: 100%;
+    position: absolute ;
+    top: 50%;
+
+    transform: translateY(-50%);
+    text-align: center;
+    color: #343434;
+    
+    h1{
+    font-size: 160px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 20px;
+    background: url(/assets/productos-mac.jpg);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+   } 
+
+   a {
+       text-decoration: none;
+       background: black;
+       color: #fff;
+       padding: 50px, 24px;
+       margin-top: 50px;
+       display: inline-block;
+       border-radius: 25px;
+       font-size: 14px;
+       text-transform: uppercase;
+       transition: 0.4s;
+    } a:hover {
+        background:darkgoldenrod;
+
+    }
+
+
+   
+
+}
