@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif
 }
+body {
+    overflow-x: hidden;
+}
 
 
 
@@ -69,6 +72,11 @@
 
 .servicios {
     height: 100vh;
+}
+
+svg {
+    margin: -10px;
+    padding-left: -1opx;
 }
 
 

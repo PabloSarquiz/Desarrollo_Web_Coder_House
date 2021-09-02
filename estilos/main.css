@@ -6,6 +6,10 @@
   font-family: sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .zoom {
   -webkit-transition: -webkit-transform .5s;
   transition: -webkit-transform .5s;
@@ -187,6 +191,11 @@ body {
 
 .servicios {
   height: 100vh;
+}
+
+svg {
+  margin: -10px;
+  padding-left: -1opx;
 }
 
 .nosotros-fondo {
