@@ -10,6 +10,15 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+  color: salmon;
+}
+
+:hover {
+  color: black;
+}
+
 .zoom {
   -webkit-transition: -webkit-transform .5s;
   transition: -webkit-transform .5s;
