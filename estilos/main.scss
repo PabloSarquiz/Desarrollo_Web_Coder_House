@@ -8,12 +8,7 @@ body {
     overflow-x: hidden;
 }
 
-a {
-    text-decoration: none;
-    color: salmon;
-} :hover {
-    color: black;
-}
+
 
 
 
@@ -60,30 +55,12 @@ a {
         .mensaje {
             color: white;
         }
-        
-    &__nosotros {
-        background-image: $hero-nosotros;
-        .mensaje {
-            background-color: tomato;
-        }
     }
-    &__contacto {
-        background-image: $hero-contacto;
-        .mensaje {
-            background-color: darkviolet;
-        }
-    }
-}
 }
 
 
 .servicios {
     height: 100vh;
-}
-
-svg {
-    margin: -10px;
-    padding-left: -1opx;
 }
 
 
@@ -139,5 +116,5 @@ hr {
 
 
 .footer {
-    background-color: lightblue;
+    background-color: $color-footer;
 }

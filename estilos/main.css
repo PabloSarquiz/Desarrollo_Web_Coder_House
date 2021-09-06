@@ -10,15 +10,6 @@ body {
   overflow-x: hidden;
 }
 
-a {
-  text-decoration: none;
-  color: salmon;
-}
-
-:hover {
-  color: black;
-}
-
 .zoom {
   -webkit-transition: -webkit-transform .5s;
   transition: -webkit-transform .5s;
@@ -29,6 +20,15 @@ a {
 .zoom:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+  color: salmon;
+}
+
+:hover {
+  color: black;
 }
 
 .productos {
@@ -81,15 +81,6 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-a {
-  text-decoration: none;
-  color: salmon;
-}
-
-:hover {
-  color: black;
 }
 
 body {
@@ -182,29 +173,8 @@ body {
   color: white;
 }
 
-.hero__combos__nosotros {
-  background-image: url(../assets/heroNosotros.jpg);
-}
-
-.hero__combos__nosotros .mensaje {
-  background-color: tomato;
-}
-
-.hero__combos__contacto {
-  background-image: url(../assets/car5.jpg);
-}
-
-.hero__combos__contacto .mensaje {
-  background-color: darkviolet;
-}
-
 .servicios {
   height: 100vh;
-}
-
-svg {
-  margin: -10px;
-  padding-left: -1opx;
 }
 
 .nosotros-fondo {
