@@ -22,6 +22,12 @@ body {
     padding-top: 150px
 }
 
+.productos {
+    padding-top: 0px;
+}
+
+
+
 .carousel-item > img {
     object-fit: cover;
     height: calc(100vh - 10px);
@@ -77,12 +83,6 @@ body {
 }
 
 
-.social {
-    color: black;
-    display: flex;
-    justify-content: space-between;
-}
-
 .card-body {
     h5 {
         font-size: $fuente-grande;
@@ -95,8 +95,8 @@ body {
         display: flex;
         color: black;
         justify-content: flex-end;
-        padding: 0 15px;
-        margin: 0 10px;
+        padding: 10 15px;
+        margin: 10 10px;
         text-decoration: none;
       }
 
@@ -117,4 +117,11 @@ hr {
 
 .footer {
     background-color: $color-footer;
+}
+
+
+@media screen and (max-width: 1024px) { 
+    .productos {
+        padding-top: 50px;
+    }
 }
